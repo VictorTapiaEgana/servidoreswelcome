@@ -54,8 +54,7 @@ router.post('/leerarchivo',(req,res)=>{
                 console.error(error);
              });
 
-        }
-   
+        }   
 
 });
 
@@ -65,11 +64,10 @@ router.post('/renombrararchivos',(req,res)=>{
     RenombrarArchivo (archivoALeer,nuevoNombre)
 
     var indice = ArchivoCreados.indexOf(archivoALeer);
-    console.log(`indice : ${indice}`)
+    
     if (indice !== -1) {
         ArchivoCreados[indice] = nuevoNombre;
-    }
-    console.log(ArchivoCreados)
+    }    
 
     res.render('renombrararchivos.hbs',{
         ArchivoCreados:ArchivoCreados,

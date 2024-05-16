@@ -2,12 +2,12 @@ const express = require('express');
 const path = require('path');
 const exphbs = require('express-handlebars');
 
-const postRoutes = require('./routes/routes');
+const postRoutes = require('./routes/postRoutes');
 const getRoutes = require('./routes/getRoutes');
 
 require('dotenv').config();
 
-PORT = process.env.PORT || 3010;
+PORT = process.env.PORT || 3005;
 
 const app = express()
 
