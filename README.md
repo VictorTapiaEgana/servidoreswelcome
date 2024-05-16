@@ -1,7 +1,14 @@
 
 # Servidores Welcome World spa.
 
-Generacionde paginas Web dinamicas desde el backend con Handlebars y Bootstrap, creacion,modificacion y eliminacion de archivos planos con FileSystem de nodeJs.  
+Generacionde paginas Web dinamicas desde el backend con Handlebars y Bootstrap, creacion,modificion y eliminacion de archivos planos con FileSystem de nodeJs.  
+
+![](https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![](https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white)
+![](https://img.shields.io/badge/Handlebars.js-000000.svg?style=for-the-badge&logo=handlebarsdotjs&logoColor=white)
+![](https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=Bootstrap&logoColor=white)
+![](https://img.shields.io/badge/Nodemon-76D04B.svg?style=for-the-badge&logo=Nodemon&logoColor=white)
+
 
 ## Estructura de Carpetas:
 ```
@@ -53,7 +60,7 @@ Generacionde paginas Web dinamicas desde el backend con Handlebars y Bootstrap, 
 ```
  git clone https://github.com/VictorTapiaEgana/servidoreswelcome.git
  npm install
- node server.js
+ npm start
 ```
 
 ## Menu:
