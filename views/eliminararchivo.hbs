@@ -1,0 +1,27 @@
+{{> body_inicio}}
+
+    <main id="main">
+
+        <h3 class="text-secondary">Eliminar un Archivo</h3>
+
+        <form action="/eliminararchivo" method="post">
+
+            <select class="form-select" aria-label="Default select example" name="archivoeliminar">
+
+                {{#each ArchivoCreados}}
+                    <option> {{this}}</option>
+                {{/each}}
+
+            </select>            
+           
+            <button type="submit" class="btn btn-danger mt-3">Archivo a eliminar</button>
+
+        </form>
+
+        {{#if mensaje}}
+            <h4 class="text-secondary mt-5">{{mensaje}}</h4>
+        {{/if}}
+
+    </main>
+
+{{> body_fin}}

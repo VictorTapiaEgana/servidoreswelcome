@@ -1,0 +1,26 @@
+{{> body_inicio}}
+
+    <main id="main">
+            <h3 class="text-center text-secondary">Crear un archivo</h3>
+       <form action="/creararchivo" method="post">
+            <div class="mb-3">
+                <label for="nombreArchivo" class="form-label text-secondary">Nombre Archico</label>
+                <input type="text" class="form-control" id="nombreArchivo" name="nombreArchivo" placeholder="nombreArchivo.txt" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="contenidoArchivo" class="form-label text-secondary">Contenido Archivo</label>
+                <textarea class="form-control" id="contenidoArchivo" name="contenidoArchivo" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Crear Archivo</button>
+            
+        </form>
+
+        {{#if resultado}}
+            <h3 id="archivoCreado">{{resultado }}</h3>
+        {{/if}}
+
+    </main>
+
+{{> body_fin}}

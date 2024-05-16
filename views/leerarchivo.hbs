@@ -1,0 +1,26 @@
+{{> body_inicio}}
+    
+    <main id="main">
+        <h3 class="text-secondary">Leer un archivo</h3>
+
+        <form action="" method="post">
+
+            <select class="form-select" aria-label="Default select example" name="archivoALeer">
+                {{#each ArchivoCreados}}
+                    <option> {{this}}</option>
+                {{/each}}
+            </select>
+
+           
+            <button type="submit" class="btn btn-secondary mt-3">Leer archivo</button>
+        </form>
+
+        {{#if datos}}
+                <h4 class="text-secondary mt-5">Contenido del Archivo:</h4>
+                <textarea id="textcontenido">{{datos}}</textarea>
+        {{/if}}
+
+    
+    </main>
+
+{{> body_fin}}
