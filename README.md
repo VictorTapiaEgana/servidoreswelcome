@@ -1,7 +1,7 @@
 
 # Servidores Welcome World spa.
 
-Generacionde paginas Web dinamicas desde el backend con Handlebars y Bootstrap, creacion,modificion y eliminacion de archivos planos con FileSystem de nodeJs.  
+Generacionde paginas Web dinamicas desde el backend con Handlebars y Bootstrap, creacion,modificacion y eliminacion de archivos planos con FileSystem de nodeJs.  
 
 ## Estructura de Carpetas:
 ```
